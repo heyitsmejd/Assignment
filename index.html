@@ -178,7 +178,6 @@ document.addEventListener('DOMContentLoaded', function(){
     //Toggle all funciton will loop through all of the toggle div texts and hide all, then toggle on the id passed through params
     var toggleDiv = document.getElementsByClassName('toggleDiv');
     function toggleAll(id){
-        console.log(id);
         for(var i = 0; i < toggleDiv.length; i++){
             toggleDiv[i].style.display = 'none';
         }
